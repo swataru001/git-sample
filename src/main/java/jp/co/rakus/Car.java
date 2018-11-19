@@ -2,9 +2,11 @@ package jp.co.rakus;
 
 public class Car {
 
-	int speed;
-	String color;
+	//こんにちは
+	private int speed;
+	private String color;
 
+	/** supreme */
 	public int getSpeed() {
 		return speed;
 	}
