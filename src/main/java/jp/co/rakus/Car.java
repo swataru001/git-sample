@@ -7,10 +7,10 @@ public class Car {
 	private String color;
 
 	public void speedUp() {
+
 		this.speed += 50;
 	}
 
-	/** supreme */
 	public int getSpeed() {
 		return speed;
 	}
