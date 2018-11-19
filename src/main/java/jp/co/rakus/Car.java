@@ -6,6 +6,10 @@ public class Car {
 	private int speed;
 	private String color;
 
+	public void speedUp() {
+		this.speed += 50;
+	}
+
 	/** supreme */
 	public int getSpeed() {
 		return speed;
