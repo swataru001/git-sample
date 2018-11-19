@@ -2,8 +2,8 @@ package jp.co.rakus;
 
 public class Car {
 
-	int speed;
-	String color;
+	private int speed;
+	private String color;
 
 	public int getSpeed() {
 		return speed;
