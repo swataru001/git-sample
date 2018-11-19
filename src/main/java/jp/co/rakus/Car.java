@@ -5,6 +5,10 @@ public class Car {
 	private int speed;
 	private String color;
 
+	public void speedUp() {
+		this.speed = this.speed + 40;
+	}
+
 	public int getSpeed() {
 		return speed;
 	}
